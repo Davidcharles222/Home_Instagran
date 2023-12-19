@@ -213,3 +213,30 @@ footer #footer-links li{
 }
 
 /* MOBILE */
+
+@media screen and (max-width: 450px) {
+    #banner-container{
+        display: none;
+    }
+    
+    #main-container,
+    #form-box{
+        margin-top: 0;
+    }
+
+    #form-contaienr,
+    #form-box,
+    #register-container{
+        width: 100%;
+        border: none;
+    }
+
+    footer{
+        width: 90%;
+        text-align: center;
+    }
+
+    #footer-links li{
+        margin-bottom: 10px;
+    }
+}
