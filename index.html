@@ -3,69 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Instagran</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Instagram</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        <div class="phone-container">
-            
-        </div>
+    <main>
+        <div id="main-container">
 
-        <main class="content-container">
-            <section class="content-price">
-                <h1>Instagram</h1>
-                <form action="">
-                    <input type="text" name="dados" placeholder="Telefone, nome de usuário ou email">
-            
-                    <input type="password" name="senha" placeholder="Senha">
-            
-                    <input type="submit" value="Entrar">
-                 </form>
+            <!-- BANNER LATERAL-->
+            <div id="banner-container">
+                <img src="img/imagem_cel_exterior.png" alt="Crie uma conta no Instagram">
+            </div>
 
-                 <div class="linha">
-                     <hr><p>OU</p><hr>
-                 </div>
-            
-                 <div class="logo-facebook">
-                    <a href="#"><img src="img/logo_facebook.svg" alt=""> Entrar com o facebook</a>
-                 </div>
+            <!-- FORM DE LOGIN E REGISTRO -->
+            <div id="form-container">
+                <div id="form-box">
+                    <img id="logo-insta" src="img/logo_instagram.png" alt="Instagram">
 
-                 <p class="esqueceu-senha">Esqueceu a senha?</p>
-            </section>
+                    <form id="login-form">
+                        <input type="text" name="username" placeholder="Telefone, nome de usuário ou email">
 
-            <section class="cadastro-container">
-                <p>Não tem uma conta? <a class="cadastro" href="#"></a>Cadastre-se</p>
-            </section>
+                        <input type="password" name="password" placeholder="Senha">
 
-            <div class="banner-container">
-                <p>Obtenha o apicativo</p>
-                <div class="mini-banner">
-                    <img class="btn-apple" src="img/botao_apple.png" alt="apple">
-                    <img class="btn-google-play" src="img/botao_google_play.png" alt="google-play">
+                        <input type="submit" value="Entrar">
+                    </form>
+
+                    <div class="separator">
+                        <div class="line"></div>
+                        <span>OU</span>
+                    </div>
+
+                    <div id="other-links">
+                        <div id="facebook-login">
+                            <a href="#"><img src="img/logo_facebook.svg" alt="Facebook"><span>Entrar com o Facebook</span></a>
+                        </div>
+
+                        <div id="forgot-pass">
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="register-container">
+                    <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                </div>
+
+                <div id="get-app-container">
+                    <p>Obtenha o aplicativo</p>
+                    <a href="#"><img src="img/botao_apple.png" alt="Apple Store"></a>
+
+                    <a href="#"><img src="img/botao_google_play.png" alt="Google Play"></a>
                 </div>
             </div>
-        </main>
+        </div>
+    </main>
 
-    </div>
-
+    <!-- RODAPÉ E LINKS DE NAVEGAÇÃO -->
     <footer>
-        <ul>
-            <li><a href="#"></a>sobre</li>
-            <li><a href="#"></a>ajuda</li>
-            <li><a href="#"></a>imprensa</li>
-            <li><a href="#"></a>api</li>
-            <li><a href="#"></a>carreiras</li>
-            <li><a href="#"></a>privacidade</li>
-            <li><a href="#"></a>termos</li>
-            <li><a href="#"></a>localizações</li>
-            <li><a href="#"></a>contas mais relevantes</li>
-            <li><a href="#"></a>hashtags</li>
-            <li><a href="#"></a>idioma</li>
-        </ul>
-            <p>@ instagram do facebook</p>
+        <nav>
+            <ul id="footer-links">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Imprensa</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termos</a></li>
+                <li><a href="#">Localizações</a></li>
+                <li><a href="#">Contas mais relevantes</a></li>
+                <li><a href="#">Hashtags</a></li>
+                <li><a href="#">Idioma</a></li>
+            </ul>
+        </nav>
+
+        <p id="copyright">&copy; Instagram do Facebook</p>
     </footer>
-    
 </body>
 </html>
