@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.phone-container{
+    width: 50%;
+    position: relative;
+    background: url(../img/imagem_cel_exterior.png) no-repeat;
+    background-size: contain;
+    margin: 0;
+}
+
+.content-container{
+    width: 50%;
+}
+
+.content-price{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+}
+
+.content-price h1{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.content-price form input[type=text],.content-price form input[type=password]{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 5px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.content-price form input[type=submit]{
+    display: block;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+}
+.linha{
+    text-align: center;
+}
+
+.linha hr{
+    margin: auto;
+    width: 35%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.linha p{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.logo-facebook{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 1em 0;
+}
+
+.logo-facebook img{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    left: -30px;
+    bottom: -5px;
+}
+
+.logo-facebook a{
+    position: relative;
+    text-decoration: none;
+}
+
+.esqueceu-senha{
+    text-align: center;
+}
+
+.cadastro-container{
+    padding: 1.5em 0;
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.banner-container{
+    width: 90%;
+    margin: auto;
+}
+
+.banner-container > p{
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.mini-banner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mini-banner img{
+    width: 150px;
+    height: 40px;
+}
+
+/* configurando footer do site */
+
+footer{
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+footer ul{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer p{
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+}
